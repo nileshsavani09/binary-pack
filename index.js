@@ -8,7 +8,7 @@
 var read = require('fs').readFileSync
   , join = require('path').join;
 
-exports = module.exports = require('binarypack');
+exports = module.exports = require('ns-binarypack');
 
 //
 // Expose source of browser code to be loaded by primus.

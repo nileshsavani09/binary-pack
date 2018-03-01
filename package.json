@@ -13,7 +13,7 @@
   },
   "scripts": {
     "test-travis": "istanbul cover _mocha --report lcovonly",
-    "update": "npm i js-binarypack && vendor/update.sh",
+    "update": "npm i ns-js-binarypack && vendor/update.sh",
     "coverage": "istanbul cover _mocha",
     "test": "mocha"
   },
@@ -21,7 +21,8 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "binarypack": "~0.0.4"
+    "ns-binarypack": "~0.0.4",
+    "ns-js-binarypack": "^0.1.0"
   },
   "devDependencies": {
     "browserify": "~16.1.0",

@@ -1,1 +1,1 @@
-context.BinaryPack = require('js-binarypack');
+context.BinaryPack = require('ns-js-binarypack');

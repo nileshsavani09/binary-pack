@@ -2,7 +2,7 @@
 
 'use strict';
 
-var pkg  = require('js-binarypack/package')
+var pkg  = require('ns-js-binarypack/package')
   , browserify = require('browserify')
   , concat = require('concat-stream')
   , derequire = require('derequire')
